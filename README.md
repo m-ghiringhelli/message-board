@@ -1,16 +1,16 @@
 ## PLAN
 I) initial setup
-  A) Home page
+  A) Home page CHECK
     1) html CHECK
     2) css  CHECK
     3) app.js CHECK
     4) fetch-utils.js CHECK
-    5) create database
-  B) Create page
+    5) create database CHECK
+  B) Create page CHECK
     1) html CHECK
     2) css  CHECK
     3) create.js  CHECK
-  C) Signup/signin page
+  C) Signup/signin page CHECK
     1) html CHECK
     2) css  CHECK
     3) signin.js  CHECK
@@ -20,6 +20,7 @@ II) authentication functionality
   C) create authentication
 III) 'display home' functionality
   A) mockup elements
+    1) one post CHECK
   B) render function
     1) grab mockup element
     2) TDD
