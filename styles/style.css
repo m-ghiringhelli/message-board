@@ -1,0 +1,10 @@
+#post-container {
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+}

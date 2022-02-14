@@ -1,19 +1,19 @@
 ## PLAN
 I) initial setup
   A) Home page
-    1) html
-    2) css
-    3) app.js
-    4) fetch-utils.js
+    1) html CHECK
+    2) css  CHECK
+    3) app.js CHECK
+    4) fetch-utils.js CHECK
     5) create database
   B) Create page
-    1) html
-    2) css
-    3) create.js
+    1) html CHECK
+    2) css  CHECK
+    3) create.js  CHECK
   C) Signup/signin page
-    1) html
-    2) css
-    3) signin.js
+    1) html CHECK
+    2) css  CHECK
+    3) signin.js  CHECK
 II) authentication functionality
   A) attach database to fetch-utils
   B) create signup/signin first so you can test
