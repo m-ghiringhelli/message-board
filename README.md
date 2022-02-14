@@ -1,8 +1,49 @@
-## The Golden Rule: 
-
-🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
-
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
+## PLAN
+I) initial setup
+  A) Home page
+    1) html
+    2) css
+    3) app.js
+    4) fetch-utils.js
+    5) create database
+  B) Create page
+    1) html
+    2) css
+    3) create.js
+  C) Signup/signin page
+    1) html
+    2) css
+    3) signin.js
+II) authentication functionality
+  A) attach database to fetch-utils
+  B) create signup/signin first so you can test
+  C) create authentication
+III) 'display home' functionality
+  A) mockup elements
+  B) render function
+    1) grab mockup element
+    2) TDD
+    3) you have a render function
+  C) data
+    1) Grab data
+    2) Render data (w/render function)
+    3) Append data to html
+  D) header
+    1) Link to create
+    2) Link to signup/signin
+IV) 'create' functionality
+  A) If not user, return home
+  B) if user
+    1) form
+    2) get data from form
+    3) create object
+    4) add object to database
+V) 'signup' functionality
+  A) If user, return to home
+  B) If not
+    1) just do what you did on half-baked
+VI) styles
+  A) on post mouseover, post gets larger/styled
 
 ## Making a plan
 
