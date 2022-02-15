@@ -25,10 +25,10 @@ III) 'display home' functionality
     1) grab mockup element CHECK
     2) TDD CHECK
     3) you have a render function CHECK
-  C) data
+  C) data CHECK
     1) Grab data CHECK
-    2) Render data (w/render function)
-    3) Append data to html
+    2) Render data (w/render function) CHECK
+    3) Append data to html CHECK
   D) header
     1) Link to create
     2) Link to signup/signin
