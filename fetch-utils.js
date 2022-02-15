@@ -3,6 +3,10 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
+export function getUser() {
+    return client.auth.session() && client.auth.session().user;
+}
+
 export async function getPosts() {
     const response = await client.from('vigilante911').select('*').order('id', { ascending: true });
     return checkError(response);
@@ -12,6 +16,18 @@ export async function signUpUser(email, password) {
     const newUser = { email, password };
     const response = await client.auth.signUp(newUser);
     return response.user;
+}
+
+export async function signInUser(email, password) {
+    const response = await client.auth.signIn({ email, password });
+    return response.user;
+}
+
+export async function redirectIfLoggedIn() {
+    if (await getUser()) {
+        console.log('user!');
+        location.replace('../create');
+    }
 }
 
 function checkError({ data, error }) {
