@@ -5,7 +5,12 @@ const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 export async function getPost(id) {
     const response = await client.from('vigilante911').select('*').single().eq('id', id).single();
-    console.log('supa');
+    // console.log(response);
+    return checkError(response);
+}
+
+export async function getPosts() {
+    const response = await client.from('vigilante911').select('*').order('id', { ascending: true });
     return checkError(response);
 }
 

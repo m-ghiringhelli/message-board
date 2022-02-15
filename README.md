@@ -22,9 +22,9 @@ III) 'display home' functionality
   A) mockup elements
     1) one post CHECK
   B) render function
-    1) grab mockup element
-    2) TDD
-    3) you have a render function
+    1) grab mockup element CHECK
+    2) TDD CHECK
+    3) you have a render function CHECK
   C) data
     1) Grab data
     2) Render data (w/render function)

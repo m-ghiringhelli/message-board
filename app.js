@@ -1,12 +1,13 @@
 // import functions and grab DOM elements
-import { getPost } from './fetch-utils.js';
+import { getPost, getPosts } from './fetch-utils.js';
 // let state
 
 // set event listeners 
 window.addEventListener('load', async () => {
-    console.log('loaded');
+    // console.log('loaded');
     const post = await getPost(1);
-    console.log(post);
+    // console.log(post);
+    console.log(await getPosts());
 });
 
   // get user input
