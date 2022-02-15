@@ -19,6 +19,6 @@ signUpForm.addEventListener('submit', async (e) => {
 signInForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const response = await signInUser(signInEmail.value, signInPassword.value);
-    // redirectIfLoggedIn();
+    redirectIfLoggedIn();
     console.log(response);
 });

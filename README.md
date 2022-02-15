@@ -30,15 +30,15 @@ III) 'display home' functionality
     2) Render data (w/render function) CHECK
     3) Append data to html CHECK
   D) header
-    1) Link to create
-    2) Link to signup/signin
+    1) Link to create CHECK
+    2) Link to signup/signin CHECK
 IV) 'create' functionality
   A) If not user, return home
   B) if user
-    1) form
-    2) get data from form
-    3) create object
-    4) add object to database
+    1) form CHECK
+    2) get data from form CHECK
+    3) create object CHECK
+    4) add object to database CHECK
 V) 'signup' functionality
   A) If user, return to home
   B) If not
@@ -51,8 +51,8 @@ VI) styles
 
 ## PLAN FOR DAY 2
 1) Finish my functions (checkAuth and logout)
-2) create create page
-3) make create page add to data
+2) create create page CHECK
+3) make create page add to data CHECK
 4) make sure navigating is okay
 5) Style style style
 
