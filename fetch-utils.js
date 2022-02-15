@@ -8,6 +8,12 @@ export async function getPosts() {
     return checkError(response);
 }
 
+export async function signUpUser(email, password) {
+    const newUser = { email, password };
+    const response = await client.auth.signUp(newUser);
+    return response.user;
+}
+
 function checkError({ data, error }) {
     return error ? console.error(error) : data;
 }

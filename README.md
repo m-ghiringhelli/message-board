@@ -43,6 +43,9 @@ V) 'signup' functionality
   A) If user, return to home
   B) If not
     1) just do what you did on half-baked
+      a) lol signup
+      b) signin
+      c) check auth
 VI) styles
   A) on post mouseover, post gets larger/styled
 
