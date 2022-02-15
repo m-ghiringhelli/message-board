@@ -1,0 +1,19 @@
+#form-container {
+    margin: auto;
+    width: 40%;
+    clear: both;
+}
+
+#form-container input {
+    width: 100%;
+    clear: both;
+}
+
+#create-post {
+    display: flex;
+    flex-direction: column;
+}
+
+#description {
+    height: 150px;
+}
