@@ -12,9 +12,19 @@ export function getUser() {
     return client.auth.session() && client.auth.session().user;
 }
 
+export async function checkAuth() {
+    const user = await getUser();
+    if (!user) location.replace('../');
+}
+
 export async function getPosts() {
     const response = await client.from('vigilante911').select('*').order('id', { ascending: true });
     return checkError(response);
+}
+
+export async function logout() {
+    await client.auth.signOut();
+    return window.location.href = '../';
 }
 
 export async function signUpUser(email, password) {
