@@ -26,7 +26,7 @@ III) 'display home' functionality
     2) TDD CHECK
     3) you have a render function CHECK
   C) data
-    1) Grab data
+    1) Grab data CHECK
     2) Render data (w/render function)
     3) Append data to html
   D) header

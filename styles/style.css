@@ -1,10 +1,13 @@
 #post-container {
-    height: 500px;
-    width: 500px;
+    /* height: 500px; */
+    width: 80%;
     background-color: bisque;
+    display: flex;
 }
 
 .post {
     display: flex;
     flex-direction: column;
+    background-color: azure;
+    margin: 5%;
 }
