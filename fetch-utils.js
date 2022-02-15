@@ -3,6 +3,11 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
+export async function addPost(post) {
+    const response = await client.from('vigilante911').insert(post);
+    return response.user;
+}
+
 export function getUser() {
     return client.auth.session() && client.auth.session().user;
 }
