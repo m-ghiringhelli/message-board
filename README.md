@@ -49,6 +49,13 @@ V) 'signup' functionality
 VI) styles
   A) on post mouseover, post gets larger/styled
 
+## PLAN FOR DAY 2
+1) Finish my functions (checkAuth and logout)
+2) create create page
+3) make create page add to data
+4) make sure navigating is okay
+5) Style style style
+
 ## Making a plan
 
 1) **Make a drawing of your app. Simple "wireframes"**
