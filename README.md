@@ -15,7 +15,7 @@ I) initial setup
     2) css  CHECK
     3) signin.js  CHECK
 II) authentication functionality
-  A) attach database to fetch-utils
+  A) attach database to fetch-utils CHECK
   B) create signup/signin first so you can test
   C) create authentication
 III) 'display home' functionality
