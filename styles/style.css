@@ -1,25 +1,58 @@
+body {
+    /* CSS HSL */
+    --eerie-black: hsla(0, 0%, 15%, 1);
+    --platinum: hsla(144, 15%, 87%, 1);
+    --white: hsla(0, 0%, 100%, 1);
+    --pink: hsla(349, 100%, 90%, 1);
+    --red-ryb: hsla(360, 100%, 55%, 1);
+    background-color: var(--white);
+}
+
 a {
     text-decoration: none;
 }
 
 #post-container {
     /* height: 500px; */
-    width: 80%;
-    background-color: bisque;
+    width: 90%;
+    background-color: var(--platinum);
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 50px;
+    border: 10px solid var(--pink);
 }
 
 .post {
     display: flex;
     flex-direction: column;
-    background-color: azure;
+    width: 35%;
+    background-color: var(--white);
+    color: var(--eerie-black);
     margin: 5%;
+    border: 3px solid var(--pink);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.post:hover {
+    transform: scale(1.2);
+    border: 4px solid red;
+    transition: all 1s;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    background-color: var(--eerie-black);
+    color: white;
+}
+
+span {
+    color: var(--red-ryb);
 }
 
 header h1 {
@@ -32,4 +65,45 @@ header h1 {
     margin: 0px 20px;
     padding: 5px;
     border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 8px var(--platinum);
+}
+
+.nav:hover {
+    background-color: rgb(184, 0, 0);
+    border: 2px solid rgb(182, 182, 182);
+}
+
+.nav:active {
+    top: 2px;
+    left: 2px;
+    box-shadow: none;
+}
+
+.subject {
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 10px 0px;
+}
+
+.location {
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.date {
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.contact {
+    margin: 0px;
+    font-weight: bold;
 }
