@@ -1,9 +1,9 @@
 body {
     /* CSS HSL */
     --eerie-black: hsla(0, 0%, 15%, 1);
-    --platinum: hsla(144, 15%, 87%, 1);
+    --platinum: rgb(217, 219, 221);
     --white: hsla(0, 0%, 100%, 1);
-    --pink: hsla(349, 100%, 90%, 1);
+    --pink: rgb(233, 107, 130);
     --red-ryb: hsla(360, 100%, 55%, 1);
     background-color: var(--white);
 }
@@ -63,7 +63,7 @@ header h1 {
     background-color: red;
     color: white;
     margin: 0px 20px;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 10px;
     border: 2px solid white;
     box-shadow: 2px 2px 8px var(--platinum);
@@ -72,11 +72,11 @@ header h1 {
 .nav:hover {
     background-color: rgb(184, 0, 0);
     border: 2px solid rgb(182, 182, 182);
+    box-shadow: 2px 2px 2px var(--platinum);
 }
 
 .nav:active {
-    top: 2px;
-    left: 2px;
+    transform: translateY(3px);
     box-shadow: none;
 }
 
