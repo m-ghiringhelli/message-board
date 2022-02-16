@@ -6,6 +6,7 @@ body {
     --pink: rgb(233, 107, 130);
     --red-ryb: hsla(360, 100%, 55%, 1);
     background-color: var(--white);
+    margin-bottom: 50px;
 }
 
 a {
@@ -13,14 +14,14 @@ a {
 }
 
 #post-container {
-    /* height: 500px; */
     width: 90%;
     background-color: var(--platinum);
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 40px;
     border-radius: 50px;
     border: 10px solid var(--pink);
 }
@@ -28,6 +29,7 @@ a {
 .post {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 35%;
     background-color: var(--white);
     color: var(--eerie-black);
@@ -108,4 +110,39 @@ header h1 {
 .contact {
     margin: 0px;
     font-weight: bold;
+}
+
+button {
+    border: 3px solid darkgrey;
+    border-radius: 10px;
+    padding: 10px 0px;
+    font-size: 1.6rem;
+    color: var(--white);
+    text-shadow: 1px 1px 0 #000;
+    box-shadow: 3px 3px 10px darkgrey;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.input {
+    width: 100%;
+    clear: both;
+    padding: 5px;
+    margin: 5px 0px 15px 0px;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+}
+
+#tagline {
+    font-weight: bolder;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
 }

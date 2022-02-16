@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { getPosts, renderPost } from './fetch-utils.js';
+import { getPosts, renderPost, getUser } from './fetch-utils.js';
 // let state
 const postContainer = document.getElementById('post-container');
 // set event listeners 
@@ -13,6 +13,8 @@ window.addEventListener('load', async () => {
         const postEl = renderPost(post);
         postContainer.append(postEl);
     }
+    const user = await getUser();
+    if (user) document.getElementById('signin').style.visibility = 'hidden';
 });
 
   // get user input
