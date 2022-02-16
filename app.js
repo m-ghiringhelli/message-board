@@ -1,5 +1,6 @@
 // import functions and grab DOM elements
-import { getPosts, renderPost, getUser } from './fetch-utils.js';
+import { getPosts, getUser } from './fetch-utils.js';
+import { renderPost } from './render.js';
 // let state
 const postContainer = document.getElementById('post-container');
 // set event listeners 

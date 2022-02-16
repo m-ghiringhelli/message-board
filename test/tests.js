@@ -1,4 +1,4 @@
-import { renderPost } from '../fetch-utils.js';
+import { renderPost } from '../render.js';
 
 const test = QUnit.test;
 
