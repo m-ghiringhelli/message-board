@@ -28,8 +28,7 @@ export async function logout() {
 }
 
 export async function signUpUser(email, password) {
-    const newUser = { email, password };
-    const response = await client.auth.signUp(newUser);
+    const response = await client.auth.signUp({ email, password });
     return response.user;
 }
 

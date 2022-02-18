@@ -13,7 +13,8 @@ redirectIfLoggedIn();
 signUpForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const response = await signUpUser(signUpEmail.value, signUpPassword.value);
-    return response.user;
+    redirectIfLoggedIn();
+    console.log(response);
 });
 
 signInForm.addEventListener('submit', async (e) => {
