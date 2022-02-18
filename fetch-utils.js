@@ -14,7 +14,7 @@ export function getUser() {
 
 export async function checkAuth() {
     const user = await getUser();
-    if (!user) location.replace('../');
+    if (!user) location.replace('../signupin');
 }
 
 export async function getPosts() {
