@@ -1,8 +1,60 @@
-## The Golden Rule: 
+## PLAN
+I) initial setup CHECK
+  A) Home page CHECK
+    1) html CHECK
+    2) css  CHECK
+    3) app.js CHECK
+    4) fetch-utils.js CHECK
+    5) create database CHECK
+  B) Create page CHECK
+    1) html CHECK
+    2) css  CHECK
+    3) create.js  CHECK
+  C) Signup/signin page CHECK
+    1) html CHECK
+    2) css  CHECK
+    3) signin.js  CHECK
+II) authentication functionality CHECK
+  A) attach database to fetch-utils CHECK
+  B) create signup/signin first so you can test CHECK
+  C) create authentication CHECK
+III) 'display home' functionality CHECK
+  A) mockup elements CHECK
+    1) one post CHECK
+  B) render function CHECK
+    1) grab mockup element CHECK
+    2) TDD CHECK
+    3) you have a render function CHECK
+  C) data CHECK
+    1) Grab data CHECK
+    2) Render data (w/render function) CHECK
+    3) Append data to html CHECK
+  D) header CHECK
+    1) Link to create CHECK
+    2) Link to signup/signin CHECK
+IV) 'create' functionality CHECK
+  A) If not user, return home CHECK
+  B) if user CHECK
+    1) form CHECK
+    2) get data from form CHECK
+    3) create object CHECK
+    4) add object to database CHECK
+V) 'signup' functionality CHECK
+  A) If user, return to home CHECK
+  B) If not CHECK
+    1) just do what you did on half-baked CHECK
+      a) lol signup CHECK
+      b) signin CHECK
+      c) check auth CHECK
+VI) styles
+  A) on post mouseover, post gets larger/styled
 
-🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
-
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
+## PLAN FOR DAY 2
+1) Finish my functions (checkAuth and logout)
+2) create create page CHECK
+3) make create page add to data CHECK
+4) make sure navigating is okay
+5) Style style style
 
 ## Making a plan
 

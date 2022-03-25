@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="./create.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>vigilante<span>911</span></h1>
+        <a href="../">
+            <div id="create-view-posts" class="nav">view posts</div>
+        </a>
+        <a href="">
+            <div id="logout" class="nav">logout</div>
+        </a>
+    </header>
+    <div id="form-container">
+        <form id="create-post">
+            <label>
+                Incident<input id="incident" class="input">
+            </label>
+            <label>
+                Location<input id="location" class="input">
+            </label>
+            <label>
+                Date/Time<input id="date" class="input">
+            </label>
+            <label>
+                Description<textarea  id="description" class="input"></textarea>
+            </label>
+            <label>
+                Contact<input id="contact" class="input">
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script type="module" src="./create.js"></script>
+</body>
+</html>

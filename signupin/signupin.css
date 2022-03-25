@@ -1,0 +1,37 @@
+body {
+    /* CSS HSL */
+    --eerie-black: hsla(0, 0%, 15%, 1);
+    --platinum: rgb(217, 219, 221);
+    --white: hsla(0, 0%, 100%, 1);
+    --pink: rgb(233, 107, 130);
+    --red-ryb: hsla(360, 100%, 55%, 1);
+    background-color: var(--white);
+}
+
+#forms-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    margin-top: 80px;
+    padding: 20px 80px 50px 80px;
+    border: 3px solid var(--pink);
+    border-radius: 10px;
+    background-color: var(--platinum);
+}
+
+button {
+    margin-top: 20px;
+}
